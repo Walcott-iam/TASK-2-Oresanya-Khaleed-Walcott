@@ -24,7 +24,7 @@ Menu:
 
 ## Feature 1 — Caesar Encrypt (user text + custom shift key)
 
-**Test:** Choose `1` → Plaintext: `Hello World` → Shift: `3`
+**Test:** Choose `1` → Plaintext: `My name is khaleed` → Shift: `2`
 **Expected:**
 ```
 [INPUT]  Plaintext : My name is khaleed
@@ -44,34 +44,34 @@ Menu:
 [OUTPUT] Plaintext : My name is khaleed
 ```
 
-![Feature 2 - Decrypt](screenshots/feature2-decrypt.png)
+![Feature 2 - Decrypt](https://github.com/Walcott-iam/TASK-2-Oresanya-Khaleed-Walcott/blob/main/decryption.png)
 
 ## Feature 3 — Encrypt + Decrypt Demo (roundtrip validation)
 
-**Test:** Choose `3` → Text: `DecodeLabs 2026!` → Shift: `7`
+**Test:** Choose `3` → Text: `I love my parent` → Shift: `2`
 **Expected:**
 ```
-Original  : DecodeLabs 2026!
-Encrypted (shift=7): KljvklShiz 2026!
-Decrypted : DecodeLabs 2026!
+Original  : I love my parent
+Encrypted (shift=2): K nqxg oa rctgpv
+Decrypted : I love my parent
 Validated: OK - roundtrip success
 ```
 
-![Feature 3 - Roundtrip](screenshots/feature3-roundtrip.png)
+![Feature 3 - Roundtrip](https://github.com/Walcott-iam/TASK-2-Oresanya-Khaleed-Walcott/blob/main/encrypt-decrypt.png)
 
 ## Feature 4 — Brute-Force Demo (vulnerability proof)
 
-**Test:** Choose `4` → Ciphertext: `Khoor`
+**Test:** Choose `4` → Ciphertext: `I love my parent`
 **Expected (excerpt):**
 ```
-shift  1: Jgnnq
-shift  2: Ifmmp
-shift  3: Hello
+shift  1: J mpwf nz qbsfou
+** shift  2: I love my parent **
+shift  3: H knud lx ozqdms
 ...
 25 keys tried = lockbox, not a vault (tiny key space + frequency analysis)
 ```
 
-![Feature 4 - Brute Force](screenshots/feature4-bruteforce.png)
+![Feature 4 - Brute Force](https://github.com/Walcott-iam/TASK-2-Oresanya-Khaleed-Walcott/blob/main/brute%20force%20demo.png)
 
 ## Feature 5 — Vigenère Cipher (bonus, per Conclusion slide)
 
@@ -84,23 +84,4 @@ Decrypted : ATTACKATDAWN
 Validated: OK
 ```
 
-![Feature 5 - Vigenere](screenshots/feature5-vigenere.png)
-
----
-
-## Quick auto-test (no typing)
-```bash
-python3 -c "import Project_2_Basic_Encryption_Decryption as c; print(c.caesar_encrypt('Hello World',3)); print(c.caesar_decrypt('Khoor Zruog',3)); print(c.vigenere_encrypt('ATTACKATDAWN','LEMON'))"
-# Khoor Zruog
-# Hello World
-# LXFOPVEFRNHR
-```
-
-## For LinkedIn
-1. Run each feature above, take 5 screenshots with Snipping Tool / Screenshot app.
-2. Save them with exact names in `screenshots/` folder so this README displays them.
-3. Post with caption: `Project 2 Done @ DecodeLabs – Caesar + Vigenère in Python #CyberSecurity #Python #DecodeLabs Batch 2026` + attach Feature 3 screenshot as cover.
-
-**Files:**
-- `Project_2_Basic_Encryption_Decryption.py` — main submission (Project 2 labelled)
-- `screenshots/feature1-encrypt.png` … `feature5-vigenere.png` — your 5 proofs
+![Feature 5 - Vigenere](https://github.com/Walcott-iam/TASK-2-Oresanya-Khaleed-Walcott/blob/main/Vignere.png)
