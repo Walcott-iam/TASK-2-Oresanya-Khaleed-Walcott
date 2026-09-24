@@ -36,7 +36,7 @@ Menu:
 
 ## Feature 2 — Caesar Decrypt (reverse shift)
 
-**Test:** Choose `2` → Ciphertext: `Khoor Zruog` → Shift: `3`
+**Test:** Choose `` → Ciphertext: `Oa  pcog ku mjcnggf` → Shift: `2`
 **Expected:**
 ```
 [INPUT]  Ciphertext: Oa  pcog ku mjcnggf
