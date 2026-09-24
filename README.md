@@ -1,8 +1,8 @@
-# Project 2: Basic Encryption & Decryption — DecodeLabs Batch 2026
+# DecodeLabs-internships
 
-**Track:** Cyber Security | **Goal:** Data Confidentiality in transit
-**Python file (labelled Project 2):** `Project_2_Basic_Encryption_Decryption.py`
-> Same code also kept as `caesar_cipher.py` for backward compatibility.
+# Basic Encryption & Decryption (Project 2)
+
+ **DecodeLabs Industrial Training Kit**|**Batch 2026 Track:** Cyber Security | **Goal:** Data Confidentiality in transit
 
 **Formula:**
 - Encrypt: `Eₙ(x) = (x + n) % 26` → `chr((ord(c)-base + shift) % 26 + base)`
