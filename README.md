@@ -31,14 +31,14 @@ Menu:
 ```
 [INPUT]  Plaintext : My name is khaleed
 [KEY]    Shift     : 2
-[OUTPUT] Ciphertext: Oa  pcog ku mjcnggf
+[OUTPUT] Ciphertext: Oa pcog ku mjcnggf
 ```
 
 ![Feature 1 - Encrypt](https://github.com/Walcott-iam/TASK-2-Oresanya-Khaleed-Walcott/blob/main/encryption.png)
 
 ## Feature 2 — Caesar Decrypt (reverse shift)
 
-**Test:** Choose `` → Ciphertext: `Oa  pcog ku mjcnggf` → Shift: `2`
+**Test:** Choose `2` → Ciphertext: `Oa  pcog ku mjcnggf` → Shift: `2`
 **Expected:**
 ```
 [INPUT]  Ciphertext: Oa  pcog ku mjcnggf
@@ -63,7 +63,7 @@ Validated: OK - roundtrip success
 
 ## Feature 4 — Brute-Force Demo (vulnerability proof)
 
-**Test:** Choose `4` → Ciphertext: `I love my parent`
+**Test:** Choose `4` → Ciphertext: ` K nqxg oa rctgpv`
 **Expected :**
 ```
 shift  1: J mpwf nz qbsfou
