@@ -27,22 +27,21 @@ Menu:
 **Test:** Choose `1` → Plaintext: `Hello World` → Shift: `3`
 **Expected:**
 ```
-[INPUT]  Plaintext : Hello World
-[KEY]    Shift     : 3
-[OUTPUT] Ciphertext: Khoor Zruog
+[INPUT]  Plaintext : My name is khaleed
+[KEY]    Shift     : 2
+[OUTPUT] Ciphertext: Oa  pcog ku mjcnggf
 ```
 
-![Feature 1 - Encrypt](screenshots/feature1-encrypt.png)
-> Save your terminal screenshot as `screenshots/feature1-encrypt.png` to show it here.
+![Feature 1 - Encrypt](https://github.com/Walcott-iam/TASK-2-Oresanya-Khaleed-Walcott/blob/main/encryption.png)
 
 ## Feature 2 — Caesar Decrypt (reverse shift)
 
 **Test:** Choose `2` → Ciphertext: `Khoor Zruog` → Shift: `3`
 **Expected:**
 ```
-[INPUT]  Ciphertext: Khoor Zruog
-[KEY]    Shift     : 3
-[OUTPUT] Plaintext : Hello World
+[INPUT]  Ciphertext: Oa  pcog ku mjcnggf
+[KEY]    Shift     : 2
+[OUTPUT] Plaintext : My name is khaleed
 ```
 
 ![Feature 2 - Decrypt](screenshots/feature2-decrypt.png)
