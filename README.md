@@ -2,7 +2,9 @@
 
 # Basic Encryption & Decryption (Project 2)
 
- **DecodeLabs Industrial Training Kit**|**Batch 2026 Track:** Cyber Security | **Goal:** Data Confidentiality in transit
+ **DecodeLabs Industrial Training Kit**|**Batch 2026 Track:** Cyber Security | **Goal:** Implement a simple encryption and decryption technique.
+
+
 
 **Formula:**
 - Encrypt: `Eₙ(x) = (x + n) % 26` → `chr((ord(c)-base + shift) % 26 + base)`
@@ -85,3 +87,18 @@ Validated: OK
 ```
 
 ![Feature 5 - Vigenere](https://github.com/Walcott-iam/TASK-2-Oresanya-Khaleed-Walcott/blob/main/Vignere.png)
+
+
+Here are 4 for your LinkedIn / README, taken straight from your Project 2:
+
+**1. Encryption Concepts (Symmetric Crypto)**
+Implemented `Eₙ(x)=(x+n)%26` and `Dₙ(x)=(x-n)%26` – same key locks and unlocks.
+
+**2. Logic Building / IPO Model**
+Input (plaintext + key) → Process (`ord()` → `-base` → `+key` → `%26` → `+base` → `chr()`) → Output (ciphertext).
+
+**3. Data Protection Basics**
+Case preserved, spaces/punctuation/digits untouched, roundtrip validated: `decrypt(encrypt(x))==x`. Bonus Vigenère with keyword (`ATTACKATDAWN`+`LEMON`=`LXFOPVEFRNHR`).
+
+**4. Vulnerability Analysis**
+Proved Caesar is lockbox not vault via brute-force (25 keys) + pattern preservation – foundation for understanding AES.
