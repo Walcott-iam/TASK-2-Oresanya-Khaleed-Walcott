@@ -64,7 +64,7 @@ Validated: OK - roundtrip success
 ## Feature 4 — Brute-Force Demo (vulnerability proof)
 
 **Test:** Choose `4` → Ciphertext: `I love my parent`
-**Expected (excerpt):**
+**Expected :**
 ```
 shift  1: J mpwf nz qbsfou
 ** shift  2: I love my parent **
@@ -89,7 +89,7 @@ Validated: OK
 ![Feature 5 - Vigenere](https://github.com/Walcott-iam/TASK-2-Oresanya-Khaleed-Walcott/blob/main/Vignere.png)
 
 
-Here are 4 for your LinkedIn / README, taken straight from your Project 2:
+# key skill demonstrated
 
 **1. Encryption Concepts (Symmetric Crypto)**
 Implemented `Eₙ(x)=(x+n)%26` and `Dₙ(x)=(x-n)%26` – same key locks and unlocks.
